@@ -13,6 +13,8 @@ This is a simple, interactive story generation web app built with Streamlit. Use
 - Streamlit
 - Transformers (HuggingFace)
 - PyTorch
-
-## Run the app:
-streamlit run app.py
+- 
+## Deliverables
+- `app.py`: Main Streamlit application
+- `requirements.txt`: Python dependencies
+- Deployed app: https://ai-dungeon-story-generator-jsa48wkdmm4ubkydwenzsi.streamlit.app/
