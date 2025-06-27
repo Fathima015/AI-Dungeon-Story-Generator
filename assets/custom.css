@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+/* GLOBAL STYLE */
+html, body, .stApp, .block-container, .css-10trblm, .css-1d391kg, .css-1v0mbdj, .css-1cpxqw2 {
+    background-color: #442D1C;
+    font-family: "Sevillana", cursive !important;
+    color: #ead4b7;
+}
+
+
+
+/* TITLES */
+h1, .stMarkdown h1 {
+    font-family: 'Sevillana', cursive !important;
+    font-size: 3rem;            /* Make it larger */
+    text-align: center;         /* Center it */
+    color: #ead4b7;             /* Fantasy purple */
+    margin-bottom: 1.5rem;
+    text-shadow: 0 1px 2px #c8b3ff;
+}
+
+
+h2, h3 {
+    font-family: 'Sevillana', cursive !important;
+    color: #c8bfdc;
+    text-shadow: 0px 1px 1px #c9baff;
+}
+
+/* PROMPT TEXTAREA */
+.stTextArea textarea {
+    background-color: #efddaf;
+    color: #2e2b26;
+    border-radius: 10px;
+    border: 2px solid #141415;
+    padding: 12px;
+    font-size: 16px;
+    font-family: 'Sevillana', cursive !important;
+}
+
+/* GENERATE BUTTON */
+.stButton > button {
+    background-color: #5e570c;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #5436a3;
+}
+
+/* DOWNLOAD BUTTON */
+.stDownloadButton > button {
+    background-color: #f0c040;
+    color: #2e2b26;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #e3b12a;
+}
+
+/* STORY BOXES */
+.css-1v0mbdj, .css-1d391kg, .st-expander {
+    background-color: #ffffffdd;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    padding: 1.5rem;
+}
+
+/* SIDEBAR */
+.css-1d391kg {
+    background-color: #f4f1fc;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f6edff;
+}
+::-webkit-scrollbar-thumb {
+    background: #b89eff;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a078ff;
+}
